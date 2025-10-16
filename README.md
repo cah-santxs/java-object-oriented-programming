@@ -24,34 +24,28 @@ Cada projeto explora diferentes aspectos do desenvolvimento em Java e do design 
 1. Clone this repository / Clone este repositório:  
    ```bash
    git clone https://github.com/cah-santxs/java-object-oriented-programming.git
-Open the project folder in your preferred IDE / Abra a pasta do projeto na sua IDE preferida.
+   ```
+2. Open the project folder in your preferred IDE / Abra a pasta do projeto na sua IDE preferida.
 
-Compile and run the desired class (usually the one containing the main method) / Compile e execute a classe desejada (geralmente a que contém o método main).
+3. Compile and run the desired class (usually the one containing the main method) / Compile e execute a classe desejada (geralmente a que contém o método main).
 
 📂 Projects Included / Projetos Incluídos
-🧮 avarageAgeUsingVector
 
-🔢 avarageOfTheNumberInAvector
+- 🧮 [avarageAgeUsingVector](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/avarageAgeUsingVector)
+- 🔢 [avarageOfTheNumberInAvector](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/avarageOfTheNumberInAvector)
+- 🏦 [bankAccount](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/bankAccount)
+- 💱 [currencyConverter](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/currencyConverter)
+- 👩‍💼 [employee](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/employee)
+- 👥 [employeeList](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/employeeList)
+- 🏨 [hostel](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/hostel)
+- ➖ [readingNegativeNumbersWithVector](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/readingNegativeNumbersWithVector)
+- 📐 [rectangle](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/rectangle)
+- 🎓 [student](https://github.com/cah-santxs/java-object-oriented-programming/tree/main/student)
 
-🏦 bankAccount
-
-💱 currencyConverter
-
-👩‍💼 employee
-
-👥 employeeList
-
-🏨 hostel
-
-➖ readingNegativeNumbersWithVector
-
-📐 rectangle
-
-🎓 student
 
 🪶 Author / Autor
 Camila Fernanda dos Santos Silva
-GitHub: @cah-santxs
+GitHub: [@cah-santxs](https://github.com/cah-santxs)
 
 📜 License / Licença
 This project is open source and available under the MIT License / Este projeto é open source e está disponível sob a Licença MIT
