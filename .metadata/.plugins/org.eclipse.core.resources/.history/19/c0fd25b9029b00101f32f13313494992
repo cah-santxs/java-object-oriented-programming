@@ -1,0 +1,29 @@
+package entities;
+
+public class Student {
+	
+	public String name;
+	public double grade1;
+	public double grade2;
+	public double grade3;
+	
+public double calculateGrade() {
+	return grade1 + grade2 + grade3;
+	}
+public void passOrNot() {
+	if (calculateGrade() >= 60) {
+		System.out.println("PASS!");
+	} else {
+		System.out.println("FAILED!");
+		double missingPoints = 60 - calculateGrade();
+		System.out.println("You need more " + missingPoints + " to pass!");
+	}
+}
+
+}
+
+
+
+
+
+

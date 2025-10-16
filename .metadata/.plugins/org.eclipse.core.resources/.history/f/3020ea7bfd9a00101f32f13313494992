@@ -1,0 +1,12 @@
+package entities;
+
+public class Student {
+	public double schoolGrade;
+
+public void caculateFinalGrade() {
+	schoolGrade += schoolGrade;
+	}
+}
+
+
+

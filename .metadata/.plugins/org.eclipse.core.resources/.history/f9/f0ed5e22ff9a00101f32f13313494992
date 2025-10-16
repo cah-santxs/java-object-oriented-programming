@@ -1,0 +1,31 @@
+package entities;
+
+public class Student {
+	public double grade1;
+	public double grade2;
+	public double grade3;
+
+	public void insertNotes() {
+		for (int i=0; i<=3; i++) {
+			System.out.println("Enter your" + i + "º semester grades: ");
+		}
+	}
+
+public double calculateFinalGrade() {
+	return grade1 + grade2 + grade3;
+	}
+public void passaOrNot(double result) {
+	if (result >= 60) {
+		System.out.println("PASS!");
+	}else {
+		System.out.println("FAILED!");
+	}
+
+	}
+}
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+package entities;
+
+public class Student {
+	public double schoolGrade;
+
+public double inputSchoolGrades() {
+
+}
+
+}
+
+
+

@@ -1,0 +1,5 @@
+age entities;
+
+public interface Interger {
+
+}

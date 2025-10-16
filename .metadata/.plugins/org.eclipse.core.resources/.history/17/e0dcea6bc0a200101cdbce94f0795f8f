@@ -1,0 +1,37 @@
+package hostel;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		 
+		
+		System.out.print("How many rooms will be rented? ");
+		int n = sc.nextInt();
+		
+		int[] rooms = new int[n];
+		String[] names = new String[n];
+		String[] emails = new String[n];
+		
+		for (int i=1; i <= n; i++) {
+			System.out.println("Rent #" + i + ":");
+			System.out.print("Name: ");
+			sc.nextLine();
+			names[i] = sc.nextLine();
+			System.out.print("Email: ");
+			emails[i] = sc.nextLine();
+			System.out.print("Room: ");
+			rooms[i] = sc.nextInt();
+		}
+		System.out.println(names);
+		System.out.println(emails);
+		System.out.println(rooms);
+		
+		
+		sc.close();
+
+	}
+
+}

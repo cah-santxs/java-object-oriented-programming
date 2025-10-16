@@ -1,0 +1,54 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("How many people will be typed? ");
+		int n = sc.nextInt();
+		
+		String[] names = new String[n];
+		int[] ages = new int[n];
+		double[] heights = new double[n];
+		
+		double sum = 0;
+		int underSixteen = 0;
+		String namesUnderSixteen = " ";
+		
+		for (int i=0; i<names.length; i++) {
+			System.out.println("Person " + (i+1) + "'s data: ");
+			System.out.print("Name: ");
+			names[i] = sc.next();
+			System.out.print("Age: ");
+			ages[i] = sc.nextInt();
+			System.out.print("Height: ");
+			heights[i] = sc.nextDouble();
+			sum += heights[i];
+
+			if (ages[i] < 16) {
+				underSixteen++;
+				namesUnderSixteen += names[i] + " ";
+				}			
+		}
+		System.out.println();
+		double average = sum / n;
+		System.out.printf("Average height: %.2f", average);
+		System.out.print("\nPeople under sixteen years of age: ");
+		double percentageUnderSixteen = ((double)underSixteen / n) * 100;
+		System.out.println(percentageUnderSixteen + "%");
+		System.out.print(namesUnderSixteen);
+		
+		
+		sc.close();
+
+			
+		}
+		
+	}
+
+

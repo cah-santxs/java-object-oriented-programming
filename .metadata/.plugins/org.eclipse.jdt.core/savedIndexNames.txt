@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+C:\Temp\ws-poo\.metadata\.plugins\org.eclipse.jdt.core
+2304137465.index
+2625126161.index
+3937591431.index
+2816221221.index
+1255279620.index
+1306806701.index
+1865797976.index
+1199912454.index
+350886874.index
+4028648569.index
+1396303802.index
