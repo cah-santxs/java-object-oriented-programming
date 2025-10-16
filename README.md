@@ -29,25 +29,25 @@ Open the project folder in your preferred IDE / Abra a pasta do projeto na sua I
 Compile and run the desired class (usually the one containing the main method) / Compile e execute a classe desejada (geralmente a que contém o método main).
 
 📂 Projects Included / Projetos Incluídos
-🧮 avarageAgeUsingVector – Calculates the average age of people stored in a vector / Calcula a idade média de pessoas armazenadas em um vetor
+🧮 avarageAgeUsingVector
 
-🔢 avarageOfTheNumberInAvector – Reads numbers and calculates the average using vectors / Lê números e calcula a média usando vetores
+🔢 avarageOfTheNumberInAvector
 
-🏦 bankAccount – Simulates a simple banking system with deposits and withdrawals / Simula um sistema bancário simples com depósitos e retiradas
+🏦 bankAccount
 
-💱 currencyConverter – Converts currency values based on an exchange rate / Converte valores de moeda com base na taxa de câmbio
+💱 currencyConverter
 
-👩‍💼 employee – Handles employee data like salary, name, and ID / Manipula dados de funcionários, como salário, nome e ID
+👩‍💼 employee
 
-👥 employeeList – Manages a list of employees with registration, salary updates, and search / Gerencia lista de funcionários com cadastro, atualização de salário e pesquisa
+👥 employeeList
 
-🏨 hostel – Room rental management system for a small hostel / Sistema de gerenciamento de aluguel de quartos para uma pequena pousada
+🏨 hostel
 
-➖ readingNegativeNumbersWithVector – Reads numbers and displays only negative ones / Lê números e exibe apenas os negativos
+➖ readingNegativeNumbersWithVector
 
-📐 rectangle – Calculates area, perimeter, and diagonal of a rectangle / Calcula área, perímetro e diagonal de um retângulo
+📐 rectangle
 
-🎓 student – Calculates student grades and determines if they pass or fail / Calcula notas dos alunos e determina se aprovam ou reprovam
+🎓 student
 
 🪶 Author / Autor
 Camila Fernanda dos Santos Silva
